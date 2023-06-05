@@ -1,4 +1,4 @@
-const directoryPath = 'fetch/foto/';
+const directoryPath = '/fetch/foto/';
 const fileExtensions = ['.jpg', '.jpeg'];
 let fileList = []
 
