@@ -20,7 +20,7 @@ let element = document.createElement("div")
 element.style.margin="auto"
 element.style.width= "500px";
 element.style.height= "500px";
-element.style.backgroundImage = `url(/foto/${fileList[1]}`                              
+element.style.backgroundImage = `url(/fetch/foto/${fileList[1]}`                              
 element.style.objectFit= "scale-down";
 
 document.querySelector("body").appendChild(element)
