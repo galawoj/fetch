@@ -1,4 +1,4 @@
-const directoryPath = 'https://galawoj.github.io/fetch/foto/';
+const directoryPath = 'https://github.com/galawoj/fetch/tree/main/foto/';
 const fileExtensions = ['.jpg', '.jpeg'];
 let fileList = []
 
@@ -20,7 +20,7 @@ let element = document.createElement("div")
 element.style.margin="auto"
 element.style.width= "500px";
 element.style.height= "500px";
-element.style.backgroundImage = `url(https://galawoj.github.io/fetch/foto/${fileList[1]}`                              
+element.style.backgroundImage = `url(https://github.com/galawoj/fetch/tree/main/foto/${fileList[1]}`                              
 element.style.objectFit= "scale-down";
 
 document.querySelector("body").appendChild(element)
